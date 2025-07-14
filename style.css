@@ -140,6 +140,9 @@ html {
 .menu {
   display: none;
 }
+.menu_list{
+  display: none;
+}
 
 /* banner start */
 .banner {
@@ -922,5 +925,27 @@ section.ishlash {
 
   .footer-links a {
     display: inline-block;
+  }
+
+
+  .menu_list{
+    display: flex;
+    flex-direction: column;
+  }
+  .menu_list nav{
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    text-align: center;
+    background-color: #00a3cc;
+    gap: 0;
+  }
+  .menu_list nav a{
+    padding: 20px;
+  }
+  .menu_list i{
+    display: block;
   }
 }
