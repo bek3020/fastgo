@@ -4,6 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 :root {
   --font-family: "Montserrat";
   --background-color: #e9f4f9;
